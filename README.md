@@ -63,3 +63,12 @@ cd projectfolder_name
 
 # Create a new React project using Vite
 npx create-vite@7.0.1
+
+# Navigate into project folder
+cd ecommerce
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
