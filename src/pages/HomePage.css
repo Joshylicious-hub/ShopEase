@@ -1,0 +1,317 @@
+nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+   z-index: 10;
+   
+}
+
+nav h1 {
+  font-size: 30px;
+  color: #222;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+nav h1:hover {
+  transform: translateY(-2px);
+  color: blue;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.25s ease, color 0.25s ease;
+   
+}
+
+nav ul li:hover {
+
+   transform: translateY(-2px);
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+  transition: color 0.50s ease;
+}
+
+nav ul li a:hover {
+  color: rgb(46, 98, 255);
+  
+}
+
+nav button {
+  background-color: rgb(72, 72, 255);
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.25s ease, background-color 0.50s ease;
+}
+
+nav button:hover {
+transform: translateY(-2px);
+background-color: rgb(44, 44, 237);
+}
+
+.welcome-page-container {
+  background-color: blue;
+  height: calc(100vh - 80px);
+}
+.welcome-page-element-container {
+  background-color: yellow;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+
+.welcome-page-element h1{
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+    font-family: 'Poppins', 'sans-serif';
+}
+.welcome-page-element h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+  font-weight: 600;
+  font-family: 'Poppins', 'sans-serif';
+}
+.welcome-page-element button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  background-color: rgb(72, 72, 255);
+  color: white;
+  font-weight: 550;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  transition: transform 0.25s ease, background-color 0.50s ease;
+}
+
+.welcome-page-element button:hover {
+  background-color: rgb(52, 52, 240);
+  transform: translateY(-2px);
+}
+
+.features-products-container {
+  background-color: white;
+  height: 80vh;
+  padding: 20px;
+
+}
+
+.features-products-container-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features-products-container-element h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.features-products-container-element p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.products-container {
+  margin-top: 20px;
+  
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.products-element {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px 1px rgba(74, 70, 70, 0.18);
+  transition: transform 0.25s ease;
+  border-radius: 10px;
+}
+
+.products-element:hover {
+  transform: translateY(-2px);
+}
+
+.products-image {
+  transition: transform 0.25s ease;
+  height: 250px;
+  width: 250px;
+  margin: 0;
+  display: block; 
+  border-radius: 25px;
+}
+
+.products-image:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.products-description {
+  box-shadow: 0px -3px 10px 0px rgba(74, 70, 70, 0.18);
+  flex-grow: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.buy-items {
+  border-radius: 3px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+background-color: rgb(72, 72, 255);
+  color: white;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+.buy-items:hover {
+   background-color: rgb(52, 52, 240);
+  transform: translateY(-2px);
+}
+.summer-sale-ads {
+  background-color: blue;
+  height: 60vh;
+  display: flex;
+  padding: 20px;
+}
+
+.summer-sale-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 500px;
+  width: 100%;
+  
+ 
+  
+}
+
+.summer-sale-container h1 {
+  align-self: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.summer-button {
+  align-self: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+  padding: 5px 20px;
+  font-size: 18px;
+  color: rgb(242, 114, 2);
+  font-style: bold;
+  box-shadow: 1px 2px 6px 0px rgba(35, 32, 32, 0.368);
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  transition: transform 0.50s ease, background-color 0.50s ease;
+  background-color: white;
+}
+
+.summer-button:hover {
+  transform: translateY(-2px);
+  background-color: rgb(233, 232, 232);
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+
+.footer-links {
+  flex-grow: 1;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer-links ul {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+  list-style: none;
+  border-top: 1px solid rgb(181, 180, 180);
+}
+
+.footer-links ul li {
+  cursor: pointer;
+  transition: transform 0.25s ease, color 0.50s ease;
+}
+
+.footer-links ul li:hover {
+transform: translateY(-2px);
+color: blue;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #222;
+  transition: color 0.50s ease;
+}
+
+.footer-links ul li a:hover {
+    color: rgb(46, 98, 255); 
+}
+
+.rights-reserved {
+  background-color: rgb(37, 37, 37);
+  padding: 20px;
+}
+.shopease-rights {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  justify-self: center;
+}
